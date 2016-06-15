@@ -271,13 +271,13 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/robo.jpg) no-repeat center top;
+	background: url(../img/space.jpg) no-repeat center top;
 	margin-top: -50px;
 	padding-top:120px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 450px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
