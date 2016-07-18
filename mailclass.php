@@ -1,6 +1,4 @@
 <?php
-use GuzzleHttp\Client;
-
 class contact
 {
 private $name; //= $_POST['name'];
@@ -36,92 +34,7 @@ private $red;
 	}//end of validateemail function
 
 	
-	function validatemessage ($message)
-	{
-		if(!empty($message))
-		{
-				$message = htmlentities($message);
-				$message = filter_var($message, FILTER_SANITIZE_MAGIC_QUOTES);
-				$this -> message = $message;
-				//echo $this->message;
-		}
-		else
-		{
-			$error = "empty message input";
-			echo "<script type='text/javascript'> alert('$error');</script>";
-			die();
-		}
-	}//end of validatemessage function
-	
-	function sendmail ($subject , $email)
-	{
-
-
-		$base_uri = "https://api.mailgun.net/v3";
-		$domain = "mg.anthonysaldana.com";
-		$username = "api";
-		$password = "key-c51f22f7e25f9db82eb9d31fe8b97e6d";
-		$message = "Message: " . $this->message . "\n Email:" . $this->email;
-
-
-		$client = new Client([
-			// Base URI is used with relative requests
-			'base_uri' => $base_uri,
-			// You can set any number of default request options.
-			'timeout'  => 2.0,
-		]);
-
-		$response = $client->post($base_uri . "/" . $domain . "/messages", [
-			'auth' => [
-				$username, 
-				$password
-			],
-			'form_params' => [
-				'from' => 'admin@anthonysaldana.com',//post a field named 'username',
-				'to' => 'anthonywebsol@gmail.com',//post a field named 'password',
-				'text' => $message
-			]
-		]);
-
-		$code = $response->getStatusCode(); // 200
-
-		if( 200 == $code )
-		{
-			$pass = "Message delivered";
-			echo "<script type='text/javascript'>alert('$pass');
-			window.location.replace('/');</script>";
-		}
-		else{
-			$error="error sending message. Error Code: " . $code ; 
-			ob_start();
-			echo "<script type='text/javascript'>alert('$error');
-			window.location.replace('index.html#contact');</script>";
-		}
-
-		//print_r( $response );
-		/*
-		
-		$headers = 'From: admin@anthonysaldana.com' . "\r\n";// .
-		//'Reply-To: arbie@anthonysaldana.com' . "\r\n";
-		if(mail($email, $subject, $message, $headers))
-		{
-		$pass = "Message delivered";
-		echo "<script type='text/javascript'>alert('$pass');
-		window.location.replace('index.html');</script>";
-		}
-		else{
-		$error="error sending message"; 
-		ob_start();
-		echo "<script type='text/javascript'>alert('$error');
-		window.location.replace('index.html#contact');</script>";
-		}*/
-	}
-}
-
-/*
-*	Deprecated
-*/
-	/*function validatephone ($phone)
+	function validatephone ($phone)
 	{
 		if(!empty($phone))
 		{
@@ -148,9 +61,9 @@ private $red;
             echo $this->red;
             die();
 		}
-	}//end of validatephone function*/
+	}//end of validatephone function
 	
-	/*function validatename ($name)
+	function validatename ($name)
 	{
 		if(!empty($name))
 		{
@@ -171,5 +84,42 @@ private $red;
                 <?php
                 die();
 		}
-	}//end of validatename function*/
+	}//end of validatename function
+	
+	function validatemessage ($message)
+	{
+		if(!empty($message))
+		{
+				$message = htmlentities($message);
+				$message = filter_var($message, FILTER_SANITIZE_MAGIC_QUOTES);
+				$this -> message = $message;
+				//echo $this->message;
+		}
+		else
+		{
+			$error = "empty message input";
+			echo "<script type='text/javascript'> alert('$error');</script>";
+			die();
+		}
+	}//end of validatemessage function
+	
+	function sendmail ($subject , $email)
+	{
+		$message = "phone: " . $this -> phone . "\n Message: " . $this -> message . "\n Name: " . $this -> name . "\n Email:" . $this->email;
+                $headers = 'From: admin@anthonysaldana.com' . "\r\n";// .
+                            //'Reply-To: arbie@anthonysaldana.com' . "\r\n";
+		if(mail($email, $subject, $message, $headers))
+		{
+			$pass = "Message delivered";
+                        echo "<script type='text/javascript'>alert('$pass');
+                                window.location.replace('index.html');</script>";
+		}
+                else{
+                    $error="error sending message"; 
+                    ob_start();
+                    echo "<script type='text/javascript'>alert('$error');
+                    window.location.replace('index.html#contact');</script>";
+                }
+	}
+}
 ?>
