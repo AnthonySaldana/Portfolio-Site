@@ -62,7 +62,6 @@
 			<li> <a href="#services" class="smoothScroll"> Work Experience</a></li>
 			<li> <a href="#education" class="smoothScroll"> Education</a></li>
 			<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
-			<li> <a href="#blog" class="smoothScroll"> Blog</a></li>
 			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
 			<li><a class="icon icon-github" target="_blank" href="https://github.com/anthonysaldana"></a></li>
 			<li><a class="icon icon-twitter" target="_blank" href="http://www.twitter.com/anthonysaldana3"></a></li>
@@ -461,51 +460,6 @@
 			<br>
 		</div><!-- /row -->
 	</div><!-- /container -->
-
-		<!-- ==== SECTION DIVIDER4 ==== -->
-		<section class="section-divider textdivider divider4">
-			<div class="container">
-				<h1>In learning you will teach, and in teaching you will learn </h1>
-				<hr>
-			</div><!-- container -->
-		</section><!-- section -->
-		
-		<!-- ==== BLOG ==== -->
-		<div class="container" id="blog" name="blog">
-		<br>
-			<div class="row">
-				<br>
-				<h1 class="centered">There's this feeling..</h1>
-				<h2 class="centered">when my pen touches paper</h2>
-				<hr>
-				<h2 class="centered">My Blog</h2>
-				<br>
-				<br>
-			</div><!-- /row -->
-			
-			<div class="row">
-				<div class="col-lg-12 blog-bg">
-					<div class="col-lg-4 centered">
-					<br>
-						<p><img class="img img-circle" width="120" height="120" src="assets/img/portfolio/aboutme.jpg" alt="A Picture of Anthony Saldana for the coding sailor blog's about me page"></p>
-						<h4>About Me & Coding Sailor</h4>
-						<h4>Published Aug 30.</h4>
-						<h4>Programmer pro·gram·mer- noun: An organism capable of converting caffeine into code.</h4>
-					</div>
-					<div class="col-lg-8 blog-content">
-						<h2>About Me & Coding Sailor</h2>
-						<p>My name is Anthony Saldana. I have come to be known by the nickname Arbie. I currently (September of 2014) live in Whittier, with my fiancée and son. I'm a web developer. I've always loved technology and more specifically, computers. Since a child I was fascinated by them. I would have to say that the path to me becoming a programmer began when I took apart my computer for the first time. In some way I became extremely fascinated with what was going on inside electronics (not just computers). </p>
-						<br>
-						<p>In middle school I played the guitar (not too good at it) and I had a friend who taught me how to take apart an amp and change parts to make it distorted. ( I liked rock and metal music.. still do.) I would go into my amp and rewire everything with different speakers and I was having fun. This really shot me in the right direction. Like I said before, I was amazed at how things worked from the inside. This led me to taking apart an old laptop just to see how things looked inside it. With one dead laptop and a dinosaur desktop the seed had been planted. <br/></p>
-						<p>Now jump forward a few years, I grabbed my first programming book during the end of high school. I think it was a few months before my senior year. The book was Beginning Programming with c++ for Dummies by Stephen R. Davis. It was a good book and I learned things that helped me along the next few years. Now I dont use c++ today, but the concepts remain. During my Senior year in high school I took a c++ programming class at my local community college ( Rio Hondo College). ACtually I took two classes during that year. An intro and advanced c++ class. Anyway thats what began this path. During that time I knew that I wanted to write code. </p>
-						<p><a href="http://codingsailor.com/about.php" class="icon icon-link"> Read More</a></p>
-						<br>
-					</div>
-				</div><!-- /col -->
-			</div><!-- /row -->
-			<br>
-			<br>
-		</div><!-- /container -->
 
 		
 		<!-- ==== SECTION DIVIDER6 ==== -->
