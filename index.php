@@ -64,7 +64,6 @@
 			<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
 			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
 			<li><a class="icon icon-github" target="_blank" href="https://github.com/anthonysaldana"></a></li>
-			<li><a class="icon icon-twitter" target="_blank" href="http://www.twitter.com/anthonysaldana3"></a></li>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -310,55 +309,22 @@
 				<br>
 				<br>
 			</div><!-- /row -->
-                        <div class='row'>
-                            <div class='col-md-2'>
-                            </div>
-                            <div class="col-md-8">
-			    	<div class="grid mask">
-						<figure class="cs">
-							<h3>Village Sweets - PHP, Laravel, MySql, HTML5, Bootstrap, Jquery</h3>
-                                                        <h4>Tools Used - Stripe Billing, Piwik Analytics, CkEditor, Composer, Git - Version control</h4>
-							<br/>
-							<a data-toggle="modal" href="#myModalvs"><img class="img-responsive" src="assets/img/portfolio/villagesweets.png" alt="Screenshot for VillageSweets"></a>
-							<figcaption>
-								<h5>Project Details</h5>
-								<a data-toggle="modal" href="#myModalvs" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
+			<div class='row'>
+				<div class='col-md-2'>
+				</div>
 				
-				<div class="modal fade" id="myModalvs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						    <div class="modal-dialog">
-						      <div class="modal-content">
-						        <div class="modal-header">
-						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                                          <h4 class='modal-title'>Village Sweets - PHP, Laravel, MySql, HTML5, Bootstrap, Jquery</h4>
-                                                        <h5 class='modal-title'>Tools Used - Stripe Billing, Piwik Analytics, CkEditor, Composer, Git - Version control</h5>
-						        </div>
-						        <div class="modal-body">
-						          <p><img class="img-responsive" src="assets/img/portfolio/villagesweets.png" alt=" Screenshot for VillageSweets"></p>
-						          <p>Shown is the Admin Back End I am developing for this site. 
-                                                              Clients wanted to completely redo their website as their current site
-                                                              is very outdated. I am developing a responsive site that contains a custom back end 
-                                                              built using the PHP Laravel Framework. It was important that this backed is able to handle 
-                                                              a few things and so these features cover those requirements:<br/>
-                                                              1. Analytic stats on Dashboard <br/>
-                                                              2. Content management of all pages. <br/>
-                                                              3. Access to their villagesweets.com email. <br/>
-                                                              4. A product page that the admin is able to add products to. This page will also have a custom search feature
-                                                              and different categories in place to make the user experience easier and more efficient. <br/>
-						          <p><b><a href="http://www.leafyweb.com">Visit Site</a></b></p>
-						        </div>
-						        <div class="modal-footer">
-						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						        </div>
-						      </div><!-- /.modal-content -->
-						    </div><!-- /.modal-dialog -->
-						  </div><!-- /.modal -->
-                        </div>
-                        
-                        <br/>
+				<div class="col-md-8">
+					<div class="grid mask">
+						<figure class="cs">
+							<h3>Fugo Place - PHP, Laravel, MySql</h3>
+							<h4>Tools Used - Composer, Git - Version control</h4>
+							<p>Developed an application using Laravel that will allow schools to create recipes and use those recipes to plan meals that will be viewable by students and parents and can be used by cafeteria staff to prepare meals. </p>
+						</figure><!-- /figure -->
+					</div><!-- /grid-mask -->
+				</div><!-- /col -->
+			</div>
+
+			<br/>
                         
 			<div class="row">
 				<br>
@@ -430,7 +396,7 @@
                                     <div class="modal-body">
                                       <p><img class="img-responsive" src="assets/img/portfolio/foliomeridian.png" alt="Screenshot for the meridian day spa"></p>
                                       <p>I developed this website for Meridian Day Spa. When I got my hands on this project, it was made from a broken custom Wordpress theme and after going through the code I decided the best thing to do would be a complete restart. This site is now beautifully crafted on top of a bootstrap template with some custom Jquery and bootstrap tweaks to give it the look and feel the client was looking for.</p>
-                                      <p><b><a href="http://www.hypewell.com/dev/meridian2">Visit Site</a></b></p>
+                                      <p><b><a href="http://meridiandayspa.com">Visit Site</a></b></p>
                                     </div>
                                     <div class="modal-footer">
                                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -446,11 +412,11 @@
                                 <div class='col-sm-2'></div>
                                 <div class='col-sm-8'>
                                     <p>
-                                        1. <a href='http://securemyplace.com'> Advanced Home Security </a><br/>
-                                        2. <a href='http://hypewell.com/dev/copavida'> CopaVida </a> - Developed site from ground up. Used Couch CMS for Back End.<br/>
-                                        3. <a href='http://hypewell.com/dev/tenren'> TenRen's Tea Time </a> - Take over development Halfway through. Have to develop a back end.<br/>
-                                        4. <a href='http://hypewell.com/clients/zacky'> Zacky Farms </a> - Modify a wordpress theme to make mobile friendly<br/>
-                                        5. <a href='http://hypewell.com/clients/houseofpolish'> House of Polish </a><br/>
+                                        1. <p> Advanced Home Security </p><br/>
+                                        2. <a href='http://copa-vida.com'> CopaVida </a> - Developed site from ground up. Used Couch CMS for Back End.<br/>
+                                        3. <p> TenRen's Tea Time </p> - Take over development Halfway through. Have to develop a back end.<br/>
+                                        4. <p> Zacky Farms </p> - Modify a wordpress theme to make mobile friendly<br/>
+                                        5. <a href='http://thehouseofpolish.com/'> House of Polish </a><br/>
                                     </p>
                                 </div>
 				<br>
