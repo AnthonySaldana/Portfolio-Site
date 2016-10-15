@@ -312,11 +312,11 @@
 			<div class='row'>
 				<div class='col-md-2'>
 				</div>
-				
+
 				<div class="col-md-8">
 					<div class="grid mask">
 						<figure class="cs">
-							<h3>Fugo Place - PHP, Laravel, MySql</h3>
+							<h3><a href="http://fugoplace.com">FugoPlace.com</a> - PHP, Laravel, MySql</h3>
 							<h4>Tools Used - Composer, Git - Version control</h4>
 							<p>Developed an application using Laravel that will allow schools to create recipes and use those recipes to plan meals that will be viewable by students and parents and can be used by cafeteria staff to prepare meals. </p>
 						</figure><!-- /figure -->
