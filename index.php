@@ -91,7 +91,7 @@
 				<hr>
 				
 				<div class="col-lg-12">
-					<center><p><h3>I'm Anthony Saldana, a Web Developer located in Whittier, CA. 
+					<center><p><h3>I'm Anthony Saldana, a Web Developer located near Los Angeles, CA. 
 					I passionately build code to create clean and user-friendly
 					websites. My current technologies of choice are php and
 					MySql for my back-end work and simply HTML,
@@ -266,7 +266,7 @@
 
 			<div class="row">
 				<br>
-				<h1 class="centered">Work done at <a href="http://onyxdesign.net" >Onyx Design ( 2015 - 2016 )</h1>
+				<h1 class="centered">Work done at <a href="http://onyxdesign.net" >Onyx Design ( 2015 - 2016 )</a></h1>
 				<hr>
 				<div class='col-sm-2'></div>
 				<div class='col-sm-8 more-work-section'>
@@ -382,7 +382,7 @@
 		<!-- ==== SECTION DIVIDER6 ==== -->
 		<section class="section-divider textdivider divider6">
 			<div class="container">
-				<h1>Located in Whittier, CA</h1>
+				<h1>Located in Los Angeles, CA</h1>
 				<hr>
 				<p>(562)479-5862</p>
 				<p><a class="icon icon-twitter" href="http://www.twitter.com/anthonysaldana3"></a></p>
@@ -400,7 +400,7 @@
 				<br>
 				<div class="col-lg-4">
 					<h3>Contact Information</h3>
-					<p><span class="icon icon-home"></span>Whittier, CA<br/>
+					<p><span class="icon icon-home"></span>Los Angeles, CA<br/>
 						<span class="icon icon-mobile"></span>(562)479-5862<br/>
 						<span class="icon icon-envelop"></span> <a href="#"> anthonywebsol@gmail.com</a> <br/>
 						<span class="icon icon-twitter"></span> <a href="http://www.twitter.com/anthonysaldana3"> @anthonysaldana3 </a>
