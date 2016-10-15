@@ -40,6 +40,10 @@
 			max-height:500px;
 			font-family:Raleway;
 		}
+
+		.more-work-section p{
+			margin-bottom: 0;
+		}
 	</style>
   </head>
 
@@ -410,14 +414,12 @@
 				<h1 class="centered">More work at Hypewell</h1>
 				<hr>
                                 <div class='col-sm-2'></div>
-                                <div class='col-sm-8'>
-                                    <p>
-                                        <p>1. Advanced Home Security </p><br/>
-                                        1. <a href='http://copa-vida.com'> CopaVida </a> - Developed site from ground up. Used Couch CMS for Back End.<br/>
-                                        <p>3. TenRen's Tea Time - Take over development Halfway through. Have to develop a back end.</p><br/>
-                                        <p>4. Zacky Farms - Modify a wordpress theme to make mobile friendly</p><br/>
+                                <div class='col-sm-8 more-work-section'>
+                                        <p>1. Advanced Home Security </p>
+                                        2. <a href='http://copa-vida.com'> CopaVida </a> - Developed site from ground up. Used Couch CMS for Back End.<br/>
+                                        <p>3. TenRen's Tea Time - Take over development Halfway through. Have to develop a back end.</p>
+                                        <p>4. Zacky Farms - Modify a wordpress theme to make mobile friendly</p>
                                         5. <a href='http://thehouseofpolish.com/'> House of Polish </a><br/>
-                                    </p>
                                 </div>
 				<br>
 				<br>
