@@ -243,13 +243,6 @@
 		
 		<!-- ==== PORTFOLIO ==== -->
 		<div class="container" id="portfolio" name="portfolio">
-		<br>
-			<div class="row">
-				<br>
-				<h1 class="centered">Let there be... and so there was</h1>
-				<hr>
-				<h2 class="centered">My Work</h2>
-			</div><!-- /row -->
 			<div class="container">
               <div class="row">
 				<h1 class="centered">Freelance Development</h1>
