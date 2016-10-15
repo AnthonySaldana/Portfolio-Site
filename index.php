@@ -248,70 +248,12 @@
 				<br>
 				<h1 class="centered">Let there be... and so there was</h1>
 				<hr>
-				<h2 class="centered">My Creations</h2>
-				<br>
-				<br>
+				<h2 class="centered">My Work</h2>
 			</div><!-- /row -->
 			<div class="container">
-			<div class="row">	
-			
-				<!-- PORTFOLIO IMAGE 1 -->
-				<div class="col-md-5 ">
-			    	<div class="grid mask">
-						<figure class="cs"> <!-- bad class name, i know. This it the class that the jquery
-						fade effect targets -->
-							<h3>Coding Sailor - PHP, MySQL, Bootstrap, HTML5</h3>
-							<br/>
-							<a data-toggle="modal" href="#myModal"><img alt="Screenshot of the Coding Sailor blog that Anthony Saldana Founded and developer" class="img-responsive" src="assets/img/portfolio/folio01two.png"></a>
-							<figcaption>
-								<h5>Project Details</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
-				
-				
-						 <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
-						      a modal for each of your projects. -->
-						      
-						  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						    <div class="modal-dialog">
-						      <div class="modal-content">
-						        <div class="modal-header">
-						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						          <h4 class="modal-title">Coding Sailor - [PHP, MySQl, Bootstrap, HTML5]</h4>
-						        </div>
-						        <div class="modal-body">
-						          <p><img alt="Screenshot of the Coding Sailor blog that Anthony Saldana Founded and developer" class="img-responsive" src="assets/img/portfolio/folio01two.png"></p>
-						          <p>My own project. This is a blog which i've developed from the ground up. Built a custom CMS and mebership system with a simple user profile going on, along with a comments system soon to come.</p>
-						          <p><b><a href="http://www.codingsailor.com">Visit Site</a></b></p>
-								  <p><b><a href="https://github.com/AnthonySaldana/CodingSailor.com-BlogProject">View the project on github</a></b></p>
-						        </div>
-						        <div class="modal-footer">
-						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						        </div>
-						      </div><!-- /.modal-content -->
-						    </div><!-- /.modal-dialog -->
-						  </div><!-- /.modal -->
-						  
-				<div class="col-md-7">
-					<h2 class="centered">Some code showing my user class</h2>
-			    	<div class="grid mask">
-						<figure class="cs"> <!-- bad class name, i know. This it the class that the jquery
-						fade effect targets -->
-							<script src="http://gist-it.appspot.com/github/AnthonySaldana/CodingSailor.com-BlogProject/blob/master/user/userclass.php?footer=minimal"></script>
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
-			</div>
-			<br/>
-                        <div class="row">
-				<br>
+              <div class="row">
 				<h1 class="centered">Freelance Development</h1>
 				<hr>
-				<br>
-				<br>
 			</div><!-- /row -->
 			<div class='row'>
 				<div class='col-md-2'>
@@ -320,7 +262,7 @@
 				<div class="col-md-8">
 					<div class="grid mask">
 						<figure class="cs">
-							<h3><a href="http://fugoplace.com">FugoPlace.com</a> - PHP, Laravel, MySql</h3>
+							<h3><a href="http://fugoplace.com">FugoPlace.com</a> - PHP, Laravel, MySql ( 2016 ) </h3>
 							<h4>Tools Used - Composer, Git - Version control</h4>
 							<p>Developed an application using Laravel that will allow schools to create recipes and use those recipes to plan meals that will be viewable by students and parents and can be used by cafeteria staff to prepare meals. </p>
 						</figure><!-- /figure -->
@@ -332,7 +274,7 @@
                         
 			<div class="row">
 				<br>
-				<h1 class="centered">Work done at HypeWell Inc.</h1>
+				<h1 class="centered">Work done at HypeWell Inc. ( 2014 - 2015 )</h1>
 				<hr>
 				<br>
 				<br>
@@ -367,7 +309,7 @@
                                           great portion of the site alongside Hype well's CEO. One of my tasks was to make
                                           sure the site was mobile responsive. Beside this, I had to develop about half of the pages
                                           on the site.
-                                      <p><b><a href="http://www.ovivo.tv">Visit Site</a></b></p>
+                                      <p><b><a href="#">Site No Longer Available ):</a></b></p>
                                     </div>
                                     <div class="modal-footer">
                                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
