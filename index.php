@@ -64,7 +64,6 @@
           <ul class="nav navbar-nav">
 			<li> <a href="#about" class="smoothScroll"> About</a></li>
 			<li> <a href="#services" class="smoothScroll"> Work Experience</a></li>
-			<li> <a href="#education" class="smoothScroll"> Education</a></li>
 			<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
 			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
 			<li><a class="icon icon-github" target="_blank" href="https://github.com/anthonysaldana"></a></li>
@@ -262,6 +261,21 @@
 					</div><!-- /grid-mask -->
 				</div><!-- /col -->
 			</div>
+
+			<br/>
+
+			<div class="row">
+				<br>
+				<h1 class="centered">Work done at <a href="http://onyxdesign.net" >Onyx Design ( 2015 - 2016 )</h1>
+				<hr>
+				<div class='col-sm-2'></div>
+				<div class='col-sm-8 more-work-section'>
+				        <p>1. Develop a real estate property manager application on top of wordpress. </p>
+				        <p>2. Develop a plugin to register users to wordpress, processing a ton of custom information and validating users based on some of those fields.</p>
+				        <p>3. Refactor two big plugins into one organized class seperated plugins.</p>
+				        <p>4. Extend Centralized Product Data Manager to sync data across different apis using curl and guzzle</p>
+				</div>
+			</div><!-- /row -->
 
 			<br/>
                         
