@@ -272,7 +272,7 @@
 				<div class='col-sm-8 more-work-section'>
 				        <p>1. Develop a real estate property manager application on top of wordpress. </p>
 				        <p>2. Develop a plugin to register users to wordpress, processing a ton of custom information and validating users based on some of those fields.</p>
-				        <p>3. Refactor two big plugins into one organized class seperated plugins.</p>
+				        <p>3. Refactor two big plugins into one organized class seperated plugin.</p>
 				        <p>4. Extend Centralized Product Data Manager to sync data across different apis using curl and guzzle</p>
 				</div>
 			</div><!-- /row -->
