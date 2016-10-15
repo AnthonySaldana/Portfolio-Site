@@ -412,10 +412,10 @@
                                 <div class='col-sm-2'></div>
                                 <div class='col-sm-8'>
                                     <p>
-                                        1. <p> Advanced Home Security </p><br/>
-                                        2. <a href='http://copa-vida.com'> CopaVida </a> - Developed site from ground up. Used Couch CMS for Back End.<br/>
-                                        3. <p> TenRen's Tea Time </p> - Take over development Halfway through. Have to develop a back end.<br/>
-                                        4. <p> Zacky Farms </p> - Modify a wordpress theme to make mobile friendly<br/>
+                                        <p>1. Advanced Home Security </p><br/>
+                                        1. <a href='http://copa-vida.com'> CopaVida </a> - Developed site from ground up. Used Couch CMS for Back End.<br/>
+                                        <p>3. TenRen's Tea Time </p> - Take over development Halfway through. Have to develop a back end.<br/>
+                                        <p>4. Zacky Farms </p> - Modify a wordpress theme to make mobile friendly<br/>
                                         5. <a href='http://thehouseofpolish.com/'> House of Polish </a><br/>
                                     </p>
                                 </div>
